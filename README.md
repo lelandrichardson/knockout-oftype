@@ -104,7 +104,7 @@ With the `.ofType` extension, you can simply replace all that with:
 
 Which helps keep your code to the point.
 
-You can read more about it's implementation in this tech.pro tutorial.
+You can read more about it's implementation in [this tech.pro tutorial](http://tech.pro/tutorial/1417/working-with-typed-arrays-in-knockoutjs).
     
     
     
