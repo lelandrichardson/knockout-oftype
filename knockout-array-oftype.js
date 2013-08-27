@@ -21,7 +21,7 @@
                 var that = this[underlyingKey];
                 var needToMap = false,
                     mappedArguments;
-                if(arguments[2] !== undefined && !(arguments[2] instanceof this[ctorKey])){
+                if(arguments[2] !== undefined && !(arguments[2] instanceof that[ctorKey])){
                     needToMap = true;
                     mappedArguments = cmap(toArray(arguments).slice(2),that[ctorKey]);
                     mappedArguments.unshift(arguments[0],arguments[1]);
